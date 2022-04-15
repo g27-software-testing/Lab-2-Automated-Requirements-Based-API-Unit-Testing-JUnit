@@ -1,7 +1,5 @@
 package org.jfree.data.test;
 
-import junit.framework.TestCase;
-
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertSame;
 
@@ -14,8 +12,6 @@ public class RangeTest {
 	private Range rangeObjectUnderTestContains;
 	private Range rangeObjectUnderTestIntersects;
 	private Range rangeObjectUnderTestConstrain;
-	private Range testRange;
-	private Range testRangeResult;
 	
 	
 
@@ -24,8 +20,6 @@ public class RangeTest {
 		rangeObjectUnderTestContains = new Range(5, 22);
 		rangeObjectUnderTestIntersects = new Range(-11, 74);
 		rangeObjectUnderTestConstrain = new Range(-27, 57);
-		testRange = new Range(7.0, 37.0);
-		testRangeResult = new Range(20.0, 37.0);
 	}
 
 	@After
